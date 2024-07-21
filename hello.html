@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Little Pony</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center; /* Center horizontally */
+                align-items: center; /* Center vertically */
+                height: 100vh; /* Full viewport height */
+                margin: 0; /* Remove default margin */
+                flex-direction: column; /* Stack elements vertically */
+                background-color: lightyellow;
+            }
+            table, img {
+                margin: 10px 0; /* Optional: add some spacing between elements */
+            }
+            img{
+
+                border: 10px solid pink;
+
+            }
+            th{
+                color: brown;
+                border: 2px solid brown;
+            }
+            td{
+                color: burlyWood;
+                border: 2px solid brown;
+            }
+            #done{
+                background-color:white;
+                margin: 10px;
+                margin-left: -200px;
+            }
+            #done:hover{
+                background-color:pink;
+            }
+        </style>
+
+     </head>
+        <body style= "color: pink;">
+            <h1 style= "color: pink; text-align:center">My Little Pony Fantacy</h1>
+            <img src="C:\Users\alaaa\OneDrive\Desktop\ponys.jpg" alt="ponys" width="300">
+
+            <h3>Our ponys</h3>
+            <ul>
+                <li style= "color: yellow;">Flattershy</li>
+                <li style= "color: orange;">Applejack</li>
+                <li style= "color: lightblue;">Rainbowdash</li>
+            </ul>
+            <table style= "text-align:center">
+                <thead>
+                    <tr>
+                        <th>Pony</th>
+                        <th>Colour</th>
+                        <th>Mark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                       <td> Flattershy</td>
+                       <td> Yellow</td>
+                       <td>Butterfly</td>
+                    </tr>
+                    <tr>
+                        <td>  Applejack</td>
+                        <td> Orange</td>
+                        <td>Apples</td>
+                     </tr>
+                     <tr>
+                        <td>   Rainbowdash</td>
+                        <td> Blue</td>
+                        <td>Rainbows</td>
+                     </tr>
+                </tbody>
+            </table>
+            <form>
+                <h2> pick up a pony</h2>
+                <input type="radio" name="Pony" value="Flattershy" style= "color: pink;">Flattershy
+                <input type="radio" name="Pony" value="Applejack" style= "color: orange;">Applejack
+                <input type="radio" name="Pony" value="Rainbowdash" style= "color: blue;">Rainbowdash
+            </form>
+            <button id="done"> Done </button>
+
+        </body>
+</html>
